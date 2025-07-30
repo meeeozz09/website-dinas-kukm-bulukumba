@@ -122,14 +122,18 @@ Website ini dirancang dan dikembangkan sebagai bagian dari Program Kerja **KKN T
 
 ### 👨‍💻 Tim Pengembang
 
-| Nama Lengkap             | Peran                                               |
-| ------------------------ | --------------------------------------------------- |
-| **Akhmad Adz Zikra**     | Programmer Utama, Desain UI/UX, Integrasi Data JSON |
-| \[Nama Kontributor 1]    | Pengumpulan Data Koperasi dan UKM                   |
-| \[Nama Kontributor 2]    | Pengumpulan Data Tenaga Kerja                       |
-| \[Nama Kontributor 3]    | Dokumentasi & Penulisan Konten                      |
-| \[Nama Kontributor 4]    | Observasi Lapangan & Wawancara Kepala Dinas         |
-| \[Nama Dosen Pembimbing] | Dosen Pembimbing Lapangan                           |
+| Nama Lengkap                 | Peran                                        |
+| ---------------------------- | -------------------------------------------- |
+| **Akhmad Adz Zikra**         | Programmer Utama, Integrasi Data JSON, Penulis Konten        |
+| **Andi Anwar**               | Pengumpulan Data Bidang Koperasi dan UKM     |
+| **\[Nama Kontributor 3]**    | Pengumpulan Data Bidang Tenaga Kerja         |
+| **\[Nama Kontributor 4]**    | Penulisan Konten Website & Editing Bahasa    |
+| **\[Nama Kontributor 5]**    | Desain Visual dan Tata Letak Halaman         |
+| **\[Nama Kontributor 6]**    | Pengelolaan Gambar & Media Website           |
+| **\[Nama Kontributor 7]**    | Observasi Lapangan & Dokumentasi Wawancara   |
+| **\[Nama Kontributor 8]**    | Penulisan Struktur Organisasi & Data Pegawai |
+| **\[Nama Kontributor 9]**    | Manajemen Folder, File, dan Optimasi Aset    |
+| **\[Nama Dosen Pembimbing]** | Dosen Pembimbing Lapangan                    |
 
 ---
 
