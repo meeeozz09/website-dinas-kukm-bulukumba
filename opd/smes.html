@@ -9,6 +9,32 @@
     <link rel="stylesheet" href="../assets/css/style.css">
 
     <style>
+         /* CSS UNTUK TOMBOL KEMBALI */
+        .back-button-container {
+            max-width: 900px; /* Samakan dengan max-width content-box */
+            margin: -20px auto 30px; /* Atur posisi agar sedikit di atas content box */
+            padding: 0 15px;
+        }
+        .btn-back {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 18px;
+            border-radius: 50px;
+            background: #fff;
+            color: #016064;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            border: 1px solid #e2e8f0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        .btn-back:hover {
+            background: #e0f7f1;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        /* Akhir CSS Tombol Kembali */
+
         /* Improved Responsive CSS for Content Sections */
         .stats-section {
             padding: 40px 0;
@@ -216,11 +242,10 @@
         </div>
     </header>
 
-
     <main>
         <section class="page-header">
             <div class="container">
-                <h1 id="page-title-placeholder"></h1>
+                <h1 id="page-title-placeholder">Memuat...</h1>
                 <p id="page-subtitle-placeholder"></p>
             </div>
         </section>
@@ -232,9 +257,14 @@
         </section>
 
         <section class="about-section" id="main-content-container">
+            <div class="back-button-container">
+                <a href="../index.html" class="btn-back">
+                    <i class="fas fa-arrow-left"></i> Kembali ke Beranda
+                </a>
+            </div>
             <div class="container content-box">
                 <h3 id="main-content-title-placeholder"></h3>
-                <p id="main-content-desc-placeholder"></p>
+                <div id="main-content-desc-placeholder"></div>
 
                 <hr class="content-divider">
 
@@ -268,12 +298,12 @@
         </div>
     </footer>
 
-    <script src="../assets/js/main.js"></script>
+   <script src="../assets/js/main.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             async function loadSmesData() {
+                const contentContainer = document.getElementById('main-content-container');
                 try {
-                    // Perhatikan nama file JSON yang dipanggil
                     const response = await fetch('../data/smes-data.json');
                     if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
                     
@@ -291,7 +321,7 @@
                     `).join('');
 
                     document.getElementById('main-content-title-placeholder').textContent = data.main_content.title;
-                    document.getElementById('main-content-desc-placeholder').textContent = data.main_content.description;
+                    document.getElementById('main-content-desc-placeholder').innerHTML = data.main_content.description;
                     
                     document.getElementById('dominant-sector-title-placeholder').textContent = data.dominant_sector.title;
                     const sectorsContainer = document.getElementById('dominant-sector-container');
@@ -315,8 +345,8 @@
 
                 } catch (error) {
                     console.error('Gagal memuat data UKM:', error);
-                    document.getElementById('main-content-container').innerHTML = 
-                        '<p style="text-align:center; color:red;">Gagal memuat data. Silakan coba lagi nanti.</p>';
+                    contentContainer.innerHTML = 
+                        '<p style="text-align:center; color:red; padding: 40px 0;">Gagal memuat data. Silakan coba lagi nanti.</p>';
                 }
             }
 

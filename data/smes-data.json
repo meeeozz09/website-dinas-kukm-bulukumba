@@ -8,19 +8,14 @@
   ],
   "main_content": {
     "title": "Tugas Pokok & Fungsi",
-    "description": "Bidang UKM berfokus pada pemberdayaan dan pengembangan kapasitas para pelaku usaha kecil dan menengah di Kabupaten Bulukumba. Kami menyediakan ekosistem yang mendukung mulai dari perizinan, pelatihan, hingga promosi produk."
+    "description": "<h4>Tugas Bidang UKM</h4><ul><li>Menganalisis aktivitas dan jenis-jenis usaha UKM.</li><li>Mengikutsertakan pelaku UKM dalam pelatihan yang diselenggarakan oleh dinas.</li><li>Melaksanakan kebijakan teknis untuk usaha mikro, kecil, dan menengah.</li></ul><h4>Fungsi Bidang UKM</h4><p>Menyelenggarakan fungsi pemerintahan daerah dan pelayanan umum untuk urusan UKM.</p><h4>Tugas Pokok Bidang UKM</h4><p>Melaksanakan tugas pemerintahan daerah dan tugas pembantuan di bidang UKM sesuai ketentuan yang berlaku.</p>"
   },
   "dominant_sector": {
     "title": "Sektor Usaha UKM Dominan",
     "sectors": [
       { "icon": "fa-utensils", "name": "Kuliner", "count": 5772 },
-      { "icon": "fa-tshirt", "name": "Fashion", "count": "-" },
-      { "icon": "fa-box-open", "name": "Jasa", "count": "-" },
-      { "icon": "fa-hammer", "name": "Jasa Pertukangan", "count": "-" },
-      { "icon": "fa-couch", "name": "Jasa Meubel", "count": "-" },
-      { "icon": "fa-tools", "name": "Jasa Perbengkelan", "count": "-" },
-      { "icon": "fa-cut", "name": "Jasa Tailor ", "count": "-" },
-      { "icon": "fa-ellipsis-h", "name": "Lain-lain", "count": "-" }
+      { "icon": "fa-tshirt", "name": "Fashion", "count": "N/A" },
+      { "icon": "fa-paint-brush", "name": "Kerajinan", "count": "N/A" }
     ]
   },
   "featured_services": {

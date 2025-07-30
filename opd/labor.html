@@ -9,6 +9,32 @@
     <link rel="stylesheet" href="../assets/css/style.css">
 
     <style>
+         /* CSS UNTUK TOMBOL KEMBALI */
+        .back-button-container {
+            max-width: 900px; /* Samakan dengan max-width content-box */
+            margin: -20px auto 30px; /* Atur posisi agar sedikit di atas content box */
+            padding: 0 15px;
+        }
+        .btn-back {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 18px;
+            border-radius: 50px;
+            background: #fff;
+            color: #016064;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            border: 1px solid #e2e8f0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        .btn-back:hover {
+            background: #e0f7f1;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        /* Akhir CSS Tombol Kembali */
+
         /* Improved Responsive CSS for Content Sections */
         .stats-section {
             padding: 40px 0;
@@ -231,6 +257,11 @@
         </section>
 
         <section class="about-section" id="main-content-container">
+            <div class="back-button-container">
+                <a href="../index.html" class="btn-back">
+                    <i class="fas fa-arrow-left"></i> Kembali ke Beranda
+                </a>
+            </div>
             <div class="container content-box">
                 <h3 id="main-content-title-placeholder"></h3>
                 <div id="main-content-desc-placeholder"></div>

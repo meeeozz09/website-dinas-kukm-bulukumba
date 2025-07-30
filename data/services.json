@@ -1,26 +1,78 @@
 {
-  "koperasi-baru": {
-    "title": "Pendaftaran Koperasi Baru",
-    "content": "<h4>Persyaratan:</h4><ol><li>Fotokopi KTP para pendiri (minimal 9 orang untuk Koperasi Primer).</li><li>Surat permohonan pendaftaran yang ditandatangani oleh pendiri.</li><li>Dua rangkap Akta Pendirian Koperasi, satu di antaranya bermeterai.</li><li>Berita acara rapat pembentukan koperasi.</li><li>Daftar hadir rapat pembentukan.</li><li>Rencana Awal Kegiatan Usaha Koperasi (minimal satu tahun ke depan).</li></ol><h4>Prosedur:</h4><p>1. Pengajuan berkas ke kantor dinas.<br>2. Verifikasi dokumen oleh petugas.<br>3. Penerbitan Sertifikat Badan Hukum Koperasi jika dinyatakan lengkap dan sah.</p>"
+  "pelatihan-kompetensi": {
+    "title": "Pelatihan Kompetensi (BLK)",
+    "content": "<h4>Deskripsi:</h4><p>Program pelatihan berbasis kompetensi yang diselenggarakan di Balai Latihan Kerja (BLK) untuk membekali calon tenaga kerja dengan keahlian spesifik yang dibutuhkan oleh dunia industri. Materi pelatihan mencakup bidang otomotif, TIK, garmen, dan lainnya.</p><h4>Persyaratan:</h4><ol><li>Fotokopi KTP & Kartu Keluarga</li><li>Fotokopi Ijazah terakhir</li><li>Pas foto 3x4</li><li>Mengisi formulir pendaftaran</li></ol>"
   },
-  "pembinaan-koperasi": {
-    "title": "Pembinaan dan Pendampingan Koperasi",
-    "content": "<h4>Jadwal Pembinaan:</h4><p>Program pembinaan rutin dilaksanakan setiap 3 bulan sekali. Jadwal spesifik akan diinformasikan melalui surat edaran kepada setiap koperasi terdaftar.</p><h4>Materi Pembinaan:</h4><ul><li>Manajemen Kelembagaan Koperasi</li><li>Kesehatan Unit Simpan Pinjam</li><li>Penyusunan Laporan Pertanggungjawaban (RAT)</li><li>Akses Permodalan</li></ul>"
+  "kartu-ak1": {
+    "title": "Kartu Pencari Kerja (AK-1)",
+    "content": "<h4>Deskripsi:</h4><p>Layanan penerbitan Kartu Tanda Bukti Pendaftaran Pencari Kerja (AK-1) atau Kartu Kuning. Kartu ini merupakan dokumen wajib yang digunakan untuk melamar pekerjaan baik di instansi pemerintah maupun swasta.</p><h4>Prosedur:</h4><p>Pendaftaran dapat dilakukan secara online melalui portal SiapKerja Kemnaker atau datang langsung ke kantor dinas dengan membawa dokumen yang diperlukan.</p>"
   },
-  "pendaftaran-ukm": {
-    "title": "Pendaftaran Izin Usaha Mikro Kecil (IUMK)",
-    "content": "<h4>Persyaratan:</h4><ol><li>Fotokopi KTP pemohon.</li><li>Fotokopi Kartu Keluarga (KK).</li><li>Pas foto berwarna ukuran 4x6 (2 lembar).</li><li>Surat pengantar dari Desa/Kelurahan setempat.</li></ol><h4>Prosedur:</h4><p>Pendaftaran dapat dilakukan secara online melalui sistem OSS (Online Single Submission) atau datang langsung ke Mal Pelayanan Publik (MPP) Kabupaten Bulukumba dengan membawa persyaratan di atas.</p>"
+  "izin-naker": {
+    "title": "Izin Ketenagakerjaan",
+    "content": "<h4>Deskripsi:</h4><p>Pelayanan untuk pengurusan izin operasional bagi Lembaga Pelatihan Kerja (LPK), Perusahaan Penempatan Pekerja Migran Indonesia (P3MI), dan izin ketenagakerjaan lainnya sesuai peraturan yang berlaku.</p><h4>Informasi:</h4><p>Untuk detail persyaratan dan prosedur, silakan hubungi Bidang Tenaga Kerja di kantor dinas.</p>"
+  },
+  "jamsostek": {
+    "title": "Hubungan Industrial & Jamsostek",
+    "content": "<h4>Deskripsi:</h4><p>Layanan pembinaan untuk menciptakan hubungan industrial yang harmonis, dinamis, dan berkeadilan antara pekerja dan pengusaha. Termasuk di dalamnya sosialisasi dan pengawasan program Jaminan Sosial Tenaga Kerja (Jamsostek/BPJS Ketenagakerjaan).</p>"
+  },
+  "pengawasan-k3": {
+    "title": "Pengawasan K3 & Norma Kerja",
+    "content": "<h4>Deskripsi:</h4><p>Melakukan pengawasan dan pembinaan kepada perusahaan untuk memastikan penerapan norma kerja serta standar Keselamatan dan Kesehatan Kerja (K3) telah sesuai dengan perundang-undangan demi melindungi hak dan keselamatan pekerja.</p>"
+  },
+  "legalisasi-koperasi": {
+    "title": "Pendaftaran & Legalisasi Koperasi",
+    "content": "<h4>Deskripsi:</h4><p>Layanan lengkap untuk pendirian koperasi baru, mulai dari tahap konsultasi awal, penyusunan draf anggaran dasar, hingga fasilitasi pembuatan Akta Pendirian Koperasi di notaris dan pengesahan Badan Hukum dari Kemenkumham.</p>"
+  },
+  "konsultasi-koperasi": {
+    "title": "Konsultasi & Pendampingan",
+    "content": "<h4>Deskripsi:</h4><p>Menyediakan layanan konsultasi gratis dan pendampingan usaha bagi koperasi. Bimbingan mencakup aspek manajemen, kelembagaan, keuangan, dan strategi pengembangan usaha agar koperasi dapat berjalan lebih efektif dan efisien.</p>"
+  },
+  "pelatihan-sdm-koperasi": {
+    "title": "Pelatihan SDM Koperasi",
+    "content": "<h4>Deskripsi:</h4><p>Program pelatihan yang dirancang khusus untuk meningkatkan kapasitas dan kompetensi para pengurus, pengawas, dan anggota koperasi. Materi meliputi kewirausahaan, manajemen modern, dan pemasaran digital.</p>"
+  },
+  "akses-modal-koperasi": {
+    "title": "Fasilitasi Akses Permodalan",
+    "content": "<h4>Deskripsi:</h4><p>Membantu koperasi untuk mendapatkan akses ke berbagai sumber permodalan, baik dari perbankan (KUR) maupun lembaga non-bank seperti Lembaga Pengelola Dana Bergulir (LPDB-KUMKM).</p>"
+  },
+  "monev-koperasi": {
+    "title": "Monitoring & Evaluasi Koperasi",
+    "content": "<h4>Deskripsi:</h4><p>Melakukan monitoring dan penilaian kesehatan koperasi secara berkala. Hasil evaluasi digunakan sebagai dasar pembinaan untuk memastikan koperasi berjalan sesuai prinsip dan peraturan yang berlaku.</p>"
+  },
+  "registrasi-ukm": {
+    "title": "Pendataan & Registrasi UKM",
+    "content": "<h4>Deskripsi:</h4><p>Layanan untuk mendata dan mendaftarkan Usaha Kecil Menengah secara resmi ke dalam basis data dinas. Data ini digunakan sebagai acuan untuk berbagai program pemberdayaan dan bantuan dari pemerintah.</p>"
+  },
+  "penerbitan-nib": {
+    "title": "Penerbitan NIB",
+    "content": "<h4>Deskripsi:</h4><p>Memberikan fasilitas dan pendampingan penuh bagi pelaku usaha untuk memperoleh Nomor Induk Berusaha (NIB) melalui sistem Online Single Submission (OSS). NIB berfungsi sebagai identitas dan izin dasar untuk menjalankan usaha.</p>"
+  },
+  "bantuan-modal-ukm": {
+    "title": "Bantuan Modal & Hibah",
+    "content": "<h4>Deskripsi:</h4><p>Menyediakan informasi terkini mengenai program bantuan modal, baik dalam bentuk hibah maupun pinjaman lunak dari pemerintah pusat atau daerah. Kami juga membantu dalam proses pengajuannya.</p>"
   },
   "pelatihan-ukm": {
-    "title": "Program Pelatihan UKM",
-    "content": "<h4>Program Unggulan:</h4><ul><li><b>Pelatihan Digital Marketing:</b> Meningkatkan penjualan melalui media sosial dan marketplace.</li><li><b>Pelatihan Kemasan Produk:</b> Membuat kemasan yang menarik dan aman.</li><li><b>Pelatihan Manajemen Keuangan:</b> Pencatatan keuangan sederhana untuk usaha.</li></ul><p>Informasi jadwal dan pendaftaran akan diumumkan secara berkala di halaman Berita dan media sosial kami.</p>"
+    "title": "Pelatihan & Peningkatan Kapasitas",
+    "content": "<h4>Deskripsi:</h4><p>Mengadakan berbagai program pelatihan untuk meningkatkan kapasitas usaha, meliputi manajemen keuangan, strategi pemasaran, inovasi produk, dan standardisasi kualitas.</p>"
   },
-  "lowongan-kerja": {
-    "title": "Informasi Lowongan Kerja (Job Fair)",
-    "content": "<h4>Layanan Bursa Kerja:</h4><p>Kami secara rutin mengadakan Job Fair yang mempertemukan perusahaan dengan para pencari kerja. Pantau terus halaman Berita dan media sosial kami untuk informasi Job Fair terdekat.</p><p>Anda juga bisa datang langsung ke dinas untuk melihat papan informasi lowongan kerja yang diperbarui setiap minggu.</p>"
+  "promosi-ukm": {
+    "title": "Pameran & Promosi Produk",
+    "content": "<h4>Deskripsi:</h4><p>Memberikan kesempatan bagi UKM binaan untuk berpartisipasi dalam pameran tingkat lokal, regional, maupun nasional guna memperkenalkan produk dan memperluas jaringan pasar.</p>"
   },
-  "pelatihan-kerja": {
-    "title": "Pelatihan Keterampilan Kerja",
-    "content": "<h4>Jenis Pelatihan:</h4><p>Bekerja sama dengan Balai Latihan Kerja (BLK), kami menyediakan berbagai pelatihan gratis berbasis kompetensi, seperti:</p><ul><li>Operator Komputer</li><li>Teknisi Sepeda Motor</li><li>Menjahit Pakaian</li><li>Pengolahan Hasil Pertanian</li></ul><h4>Pendaftaran:</h4><p>Pendaftaran dibuka per gelombang. Silakan hubungi bidang Tenaga Kerja untuk informasi jadwal pendaftaran terdekat.</p>"
+  "akses-kur": {
+    "title": "Akses Permodalan (KUR)",
+    "content": "<h4>Deskripsi:</h4><p>Layanan pendampingan dan fasilitasi bagi UKM untuk dapat mengakses program Kredit Usaha Rakyat (KUR) dari bank-bank yang telah ditunjuk oleh pemerintah dengan bunga yang rendah.</p>"
+  },
+  "inkubasi-ukm": {
+    "title": "Pendampingan & Inkubasi Bisnis",
+    "content": "<h4>Deskripsi:</h4><p>Program bimbingan intensif bagi usaha rintisan (startup) dan UKM terpilih untuk mengembangkan model bisnis, meningkatkan skala usaha, dan menjadi lebih siap bersaing di pasar yang lebih luas.</p>"
+  },
+  "sertifikasi-produk": {
+    "title": "Sertifikasi Produk",
+    "content": "<h4>Deskripsi:</h4><p>Memberikan pendampingan dan fasilitasi dalam proses pengurusan sertifikasi produk yang penting untuk meningkatkan kepercayaan konsumen dan daya saing, seperti sertifikasi Halal, PIRT, dan BPOM.</p>"
+  },
+  "digitalisasi-ukm": {
+    "title": "Digitalisasi UKM",
+    "content": "<h4>Deskripsi:</h4><p>Membantu pelaku UKM untuk go-digital melalui pelatihan pembuatan toko online (e-commerce), pemanfaatan media sosial untuk branding, dan strategi pemasaran digital lainnya.</p>"
   }
 }

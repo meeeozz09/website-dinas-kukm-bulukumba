@@ -1,50 +1,154 @@
 [
   {
-    "category": "koperasi",
-    "icon": "fa-hand-holding-usd",
-    "title": "Pendaftaran Koperasi Baru",
-    "description": "Layanan pendaftaran dan legalisasi koperasi baru di wilayah Kabupaten Bulukumba.",
-    "data_key": "koperasi-baru",
-    "link_text": "Lihat Persyaratan"
+    "category": "tenaga-kerja",
+    "icon": "fa-user-cog",
+    "title": "Pelatihan Kompetensi (BLK)",
+    "description": "Program pelatihan berbasis kompetensi di Balai Latihan Kerja untuk meningkatkan keahlian.",
+    "data_key": "pelatihan-kompetensi",
+    "link_text": "Lihat Detail"
+  },
+  {
+    "category": "tenaga-kerja",
+    "icon": "fa-id-card",
+    "title": "Kartu Pencari Kerja (AK-1)",
+    "description": "Layanan penerbitan Kartu Kuning sebagai syarat utama bagi para pencari kerja.",
+    "data_key": "kartu-ak1",
+    "link_text": "Lihat Detail"
+  },
+  {
+    "category": "tenaga-kerja",
+    "icon": "fa-file-signature",
+    "title": "Izin Ketenagakerjaan",
+    "description": "Pelayanan perizinan operasional lembaga pelatihan dan penempatan tenaga kerja.",
+    "data_key": "izin-naker",
+    "link_text": "Lihat Detail"
+  },
+  {
+    "category": "tenaga-kerja",
+    "icon": "fa-handshake",
+    "title": "Hubungan Industrial & Jamsostek",
+    "description": "Pembinaan hubungan industrial yang harmonis dan jaminan sosial bagi tenaga kerja.",
+    "data_key": "jamsostek",
+    "link_text": "Lihat Detail"
+  },
+  {
+    "category": "tenaga-kerja",
+    "icon": "fa-hard-hat",
+    "title": "Pengawasan K3 & Norma Kerja",
+    "description": "Memastikan keselamatan, kesehatan kerja (K3), dan norma kerja terpenuhi di perusahaan.",
+    "data_key": "pengawasan-k3",
+    "link_text": "Lihat Detail"
   },
   {
     "category": "koperasi",
-    "icon": "fa-file-alt",
-    "title": "Pembinaan Koperasi",
-    "description": "Program pembinaan dan pendampingan untuk pengembangan koperasi yang sehat dan mandiri.",
-    "data_key": "pembinaan-koperasi",
-    "link_text": "Info Jadwal"
+    "icon": "fa-stamp",
+    "title": "Pendaftaran & Legalisasi Koperasi",
+    "description": "Layanan pembuatan akta pendirian hingga legalisasi badan hukum untuk koperasi baru.",
+    "data_key": "legalisasi-koperasi",
+    "link_text": "Lihat Detail"
+  },
+  {
+    "category": "koperasi",
+    "icon": "fa-users-cog",
+    "title": "Konsultasi & Pendampingan",
+    "description": "Bimbingan teknis dan pelatihan manajemen untuk pengembangan usaha koperasi.",
+    "data_key": "konsultasi-koperasi",
+    "link_text": "Lihat Detail"
+  },
+  {
+    "category": "koperasi",
+    "icon": "fa-chalkboard-teacher",
+    "title": "Pelatihan SDM Koperasi",
+    "description": "Meningkatkan kapasitas pengurus dan anggota melalui pelatihan kewirausahaan dan digital.",
+    "data_key": "pelatihan-sdm-koperasi",
+    "link_text": "Lihat Detail"
+  },
+  {
+    "category": "koperasi",
+    "icon": "fa-money-bill-wave",
+    "title": "Fasilitasi Akses Permodalan",
+    "description": "Menghubungkan koperasi dengan sumber pembiayaan seperti LPDB.",
+    "data_key": "akses-modal-koperasi",
+    "link_text": "Lihat Detail"
+  },
+  {
+    "category": "koperasi",
+    "icon": "fa-search-dollar",
+    "title": "Monitoring & Evaluasi Koperasi",
+    "description": "Penilaian kesehatan koperasi untuk memastikan keberlanjutan dan kepercayaan anggota.",
+    "data_key": "monev-koperasi",
+    "link_text": "Lihat Detail"
   },
   {
     "category": "ukm",
-    "icon": "fa-store",
-    "title": "Pendaftaran IUMK",
-    "description": "Pendaftaran dan sertifikasi Izin Usaha Mikro Kecil (IUMK) untuk pelaku UKM.",
-    "data_key": "pendaftaran-ukm",
-    "link_text": "Daftar Sekarang"
+    "icon": "fa-clipboard-list",
+    "title": "Pendataan & Registrasi UKM",
+    "description": "Layanan pendaftaran dan pendataan resmi bagi para pelaku Usaha Kecil Menengah.",
+    "data_key": "registrasi-ukm",
+    "link_text": "Lihat Detail"
   },
   {
     "category": "ukm",
-    "icon": "fa-chart-line",
-    "title": "Pelatihan UKM",
-    "description": "Program pelatihan dan pengembangan kapasitas untuk para pelaku Usaha Kecil Menengah.",
+    "icon": "fa-id-badge",
+    "title": "Penerbitan NIB",
+    "description": "Fasilitasi pembuatan Nomor Induk Berusaha sebagai identitas legal bagi pelaku usaha.",
+    "data_key": "penerbitan-nib",
+    "link_text": "Lihat Detail"
+  },
+  {
+    "category": "ukm",
+    "icon": "fa-gift",
+    "title": "Bantuan Modal & Hibah",
+    "description": "Informasi dan fasilitasi akses untuk program bantuan modal atau hibah bagi UKM.",
+    "data_key": "bantuan-modal-ukm",
+    "link_text": "Lihat Detail"
+  },
+  {
+    "category": "ukm",
+    "icon": "fa-lightbulb",
+    "title": "Pelatihan & Peningkatan Kapasitas",
+    "description": "Program pelatihan untuk meningkatkan skill manajemen, produksi, dan pemasaran.",
     "data_key": "pelatihan-ukm",
-    "link_text": "Lihat Program"
+    "link_text": "Lihat Detail"
   },
   {
-    "category": "tenaga-kerja",
-    "icon": "fa-briefcase",
-    "title": "Informasi Lowongan Kerja",
-    "description": "Layanan informasi lowongan kerja terbaru dari berbagai sektor di Bulukumba.",
-    "data_key": "lowongan-kerja",
-    "link_text": "Cari Lowongan"
+    "category": "ukm",
+    "icon": "fa-store-alt",
+    "title": "Pameran & Promosi Produk",
+    "description": "Mengikutsertakan UKM dalam berbagai pameran untuk memperluas jangkauan pasar.",
+    "data_key": "promosi-ukm",
+    "link_text": "Lihat Detail"
   },
   {
-    "category": "tenaga-kerja",
-    "icon": "fa-user-graduate",
-    "title": "Pelatihan Keterampilan",
-    "description": "Program pelatihan keterampilan kerja untuk meningkatkan kompetensi para pencari kerja.",
-    "data_key": "pelatihan-kerja",
-    "link_text": "Daftar Pelatihan"
+    "category": "ukm",
+    "icon": "fa-credit-card",
+    "title": "Akses Permodalan (KUR)",
+    "description": "Pendampingan untuk mendapatkan akses Kredit Usaha Rakyat (KUR) dari perbankan.",
+    "data_key": "akses-kur",
+    "link_text": "Lihat Detail"
+  },
+  {
+    "category": "ukm",
+    "icon": "fa-seedling",
+    "title": "Pendampingan & Inkubasi Bisnis",
+    "description": "Program bimbingan intensif bagi para startup dan UKM untuk naik kelas.",
+    "data_key": "inkubasi-ukm",
+    "link_text": "Lihat Detail"
+  },
+  {
+    "category": "ukm",
+    "icon": "fa-check-double",
+    "title": "Sertifikasi Produk",
+    "description": "Fasilitasi untuk mendapatkan sertifikasi penting seperti Halal, PIRT, dan BPOM.",
+    "data_key": "sertifikasi-produk",
+    "link_text": "Lihat Detail"
+  },
+  {
+    "category": "ukm",
+    "icon": "fa-laptop-code",
+    "title": "Digitalisasi UKM",
+    "description": "Membantu UKM bertransformasi ke ranah digital melalui e-commerce dan branding online.",
+    "data_key": "digitalisasi-ukm",
+    "link_text": "Lihat Detail"
   }
 ]
