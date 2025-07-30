@@ -421,6 +421,16 @@ footer {
     width: 100%;
     max-width: 250px;
   }
+
+  .nav-menu a.active {
+        background-color: #e0f7f1; 
+        color: #016064;
+        font-weight: 600;
+    }
+
+    .nav-menu a.active i {
+        color: #ff7d00;
+    }
 }
 
 @media (max-width: 576px) {
