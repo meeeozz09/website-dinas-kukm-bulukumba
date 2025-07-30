@@ -120,10 +120,6 @@ Website ini dirancang dan dikembangkan sebagai bagian dari Program Kerja **KKN T
 
 ---
 
-Berikut adalah versi **Tim Pengembang** dalam bentuk **paragraf berpoin** yang lebih naratif namun tetap rapi dan profesional:
-
----
-
 ### 👨‍💻 Tim Pengembang
 
 Proyek website ini merupakan hasil kerja sama tim mahasiswa ITEB Bina Adinata dalam kegiatan **KKN Tematik Tahun 2025** yang dilaksanakan di **Dinas Koperasi, Usaha Kecil, Menengah dan Tenaga Kerja Kabupaten Bulukumba**. Setiap anggota memiliki peran masing-masing dalam mendukung keberhasilan proyek ini, antara lain:
