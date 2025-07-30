@@ -40,7 +40,7 @@ body {
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   box-shadow: var(--shadow);
-  position: sticky;
+  position: static;
   top: 0;
   z-index: 100;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
@@ -668,71 +668,5 @@ footer {
   color: #ff7d00;
 }
 
-/* =============================================== */
-/* STYLE UNTUK TAMPILAN MOBILE          */
-/* =============================================== */
-
-/* Terapkan gaya ini hanya jika lebar layar 768px atau kurang */
-@media (max-width: 768px) {
-
-    /* Atur ulang header utama */
-    .header-content {
-        flex-direction: column; /* Susun logo dan navigasi secara vertikal */
-        gap: 15px; /* Beri jarak antara logo dan navigasi */
-        padding: 15px 0;
-    }
-
-    /* Atur ulang bagian logo */
-    .logo {
-        flex-direction: column; /* Susun gambar logo dan teks secara vertikal */
-        text-align: center; /* Pusatkan teks logo */
-        gap: 10px;
-    }
-
-    /* Perkecil ukuran gambar logo */
-    .logo-img {
-        width: 50px;
-        height: 50px;
-    }
-
-    /* Perkecil ukuran font judul dan tagline */
-    .logo-text h1 {
-        font-size: 1rem; /* Ukuran font lebih kecil */
-        line-height: 1.4; /* Atur jarak antar baris */
-    }
-    
-    .logo-text .tagline {
-        font-size: 0.8rem; /* Ukuran tagline lebih kecil */
-        display: none; /* Sembunyikan tagline jika layar terlalu sempit (opsional) */
-    }
-    
-    /* Atur ulang menu navigasi */
-    .nav-menu {
-        justify-content: center; /* Pusatkan item menu */
-        flex-wrap: wrap; /* Izinkan item menu pindah ke baris baru jika tidak muat */
-        gap: 5px 15px; /* Beri jarak antar item menu */
-    }
-
-    .nav-menu a {
-        padding: 8px 12px; /* Perkecil padding tombol menu */
-        font-size: 0.9rem;
-    }
-
-    /* Atur ulang section di bawah header agar tidak terlalu menempel */
-    main > section:first-child {
-        margin-top: 180px; /* Sesuaikan angka ini jika perlu */
-    }
-}
-
-/* Penyesuaian untuk layar yang sangat kecil */
-@media (max-width: 480px) {
-    .logo-text h1 {
-        font-size: 0.9rem;
-    }
-
-    main > section:first-child {
-        margin-top: 170px;
-    }
-}
 }
 
