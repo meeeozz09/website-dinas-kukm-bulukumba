@@ -126,12 +126,6 @@ Berikut adalah versi **Tim Pengembang** dalam bentuk **paragraf berpoin** yang l
 
 ### 👨‍💻 Tim Pengembang
 
-PMengerti! Berikut versi yang **lebih santun, profesional, dan tetap menegaskan peranmu sebagai pengembang utama**, tanpa terkesan menyombongkan diri:
-
----
-
-### 👨‍💻 Tim Pengembang
-
 Proyek website ini merupakan hasil kerja sama tim mahasiswa ITEB Bina Adinata dalam kegiatan **KKN Tematik Tahun 2025** yang dilaksanakan di **Dinas Koperasi, Usaha Kecil, Menengah dan Tenaga Kerja Kabupaten Bulukumba**. Setiap anggota memiliki peran masing-masing dalam mendukung keberhasilan proyek ini, antara lain:
 
 * **Akhmad Adz Zikra** bertanggung jawab dalam **pengembangan teknis website**, mencakup desain tampilan, penulisan kode HTML, CSS, dan JavaScript, serta pengelolaan data dinamis menggunakan file JSON.
