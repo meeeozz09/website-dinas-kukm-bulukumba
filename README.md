@@ -120,20 +120,23 @@ Website ini dirancang dan dikembangkan sebagai bagian dari Program Kerja **KKN T
 
 ---
 
+Berikut adalah versi **Tim Pengembang** dalam bentuk **paragraf berpoin** yang lebih naratif namun tetap rapi dan profesional:
+
+---
+
 ### 👨‍💻 Tim Pengembang
 
-| Nama Lengkap                 | Peran                                        |
-| ---------------------------- | -------------------------------------------- |
-| **Akhmad Adz Zikra**         | Programmer Utama, Integrasi Data JSON, Penulis Konten        |
-| **Andi Anwar**               | Pengumpulan Data Bidang Koperasi dan UKM     |
-| **\[Nama Kontributor 3]**    | Pengumpulan Data Bidang Tenaga Kerja         |
-| **\[Nama Kontributor 4]**    | Penulisan Konten Website & Editing Bahasa    |
-| **\[Nama Kontributor 5]**    | Desain Visual dan Tata Letak Halaman         |
-| **\[Nama Kontributor 6]**    | Pengelolaan Gambar & Media Website           |
-| **\[Nama Kontributor 7]**    | Observasi Lapangan & Dokumentasi Wawancara   |
-| **\[Nama Kontributor 8]**    | Penulisan Struktur Organisasi & Data Pegawai |
-| **\[Nama Kontributor 9]**    | Manajemen Folder, File, dan Optimasi Aset    |
-| **\[Nama Dosen Pembimbing]** | Dosen Pembimbing Lapangan                    |
+PMengerti! Berikut versi yang **lebih santun, profesional, dan tetap menegaskan peranmu sebagai pengembang utama**, tanpa terkesan menyombongkan diri:
+
+---
+
+### 👨‍💻 Tim Pengembang
+
+Proyek website ini merupakan hasil kerja sama tim mahasiswa ITEB Bina Adinata dalam kegiatan **KKN Tematik Tahun 2025** yang dilaksanakan di **Dinas Koperasi, Usaha Kecil, Menengah dan Tenaga Kerja Kabupaten Bulukumba**. Setiap anggota memiliki peran masing-masing dalam mendukung keberhasilan proyek ini, antara lain:
+
+* **Akhmad Adz Zikra** bertanggung jawab dalam **pengembangan teknis website**, mencakup desain tampilan, penulisan kode HTML, CSS, dan JavaScript, serta pengelolaan data dinamis menggunakan file JSON.
+* Anggota tim lainnya, yaitu **Andi Anwar**, **\[Nama Anggota 2]**, **\[Nama Anggota 3]**, **\[Nama Anggota 4]**, **\[Nama Anggota 5]**, **\[Nama Anggota 6]**, **\[Nama Anggota 7]**, dan **\[Nama Anggota 8]**, turut berkontribusi dalam **pengumpulan data**, seperti dokumentasi foto, informasi struktur organisasi, data layanan dari masing-masing bidang (Koperasi, UKM, dan Tenaga Kerja), serta hasil wawancara dengan pihak dinas terkait.
+* **\[Nama Dosen Pembimbing]** selaku **dosen pembimbing lapangan**, memberikan arahan, masukan, dan bimbingan selama proses pelaksanaan KKN berlangsung.
 
 ---
 
