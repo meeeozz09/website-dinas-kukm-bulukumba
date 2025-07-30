@@ -1,0 +1,32 @@
+{
+  "page_title": "Bidang Koperasi",
+  "page_subtitle": "Mewujudkan koperasi yang sehat, kuat, mandiri, dan berdaya saing sebagai pilar ekonomi kerakyatan.",
+  "statistics": [
+    { "value": "340", "label": "Koperasi Aktif" },
+    { "value": "136", "label": "Baru Dibentuk (2025)" },
+    { "value": "96", "label": "Koperasi Tidak Aktif" }
+  ],
+  "main_content": {
+    "title": "Tugas Pokok & Fungsi",
+    "description": "Bidang Koperasi bertugas melaksanakan pembinaan, pemberdayaan, dan pengawasan terhadap seluruh koperasi di Kabupaten Bulukumba. Kami berkomitmen untuk memfasilitasi pertumbuhan ekosistem koperasi yang sehat dan mampu meningkatkan kesejahteraan anggotanya melalui berbagai program dan layanan unggulan."
+  },
+  "cooperative_types": {
+    "title": "Jenis Koperasi di Bulukumba",
+    "types": [
+      { "icon": "fa-shopping-cart", "name": "Koperasi Konsumen", "count": 165 },
+      { "icon": "fa-flag", "name": "Koperasi Merah Putih", "count": 136 },
+      { "icon": "fa-tractor", "name": "Koperasi Produsen", "count": 94 },
+      { "icon": "fa-piggy-bank", "name": "Koperasi Simpan Pinjam", "count": 30 },
+      { "icon": "fa-bullhorn", "name": "Koperasi Pemasaran", "count": 11 }
+    ]
+  },
+  "featured_services": {
+    "title": "Layanan Unggulan Bidang Koperasi",
+    "services": [
+      { "icon": "fa-file-signature", "title": "Pendaftaran Badan Hukum", "description": "Layanan lengkap untuk proses pendirian koperasi baru, mulai dari konsultasi hingga penerbitan badan hukum." },
+      { "icon": "fa-search-dollar", "title": "Pengawasan & Pemeriksaan", "description": "Melakukan pemeriksaan kesehatan rutin pada Koperasi Simpan Pinjam (KSP/USP) untuk menjaga kepercayaan anggota." },
+      { "icon": "fa-chalkboard-teacher", "title": "Pendidikan & Pelatihan", "description": "Program peningkatan kapasitas bagi pengurus, pengawas, dan anggota koperasi mengenai manajemen dan kewirausahaan." },
+      { "icon": "fa-handshake", "title": "Fasilitasi Akses Permodalan", "description": "Menghubungkan koperasi dengan lembaga keuangan dan program permodalan dari pemerintah untuk pengembangan usaha." }
+    ]
+  }
+}

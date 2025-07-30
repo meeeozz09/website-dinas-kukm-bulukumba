@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dinas Koperasi Usaha Kecil Menengah dan Tenaga Kerja</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <style>
+    .news-detail-section {
+      padding: 60px 0;
+    }
+    .news-header {
+      margin-bottom: 40px;
+      text-align: center;
+    }
+    .news-title {
+      font-size: 2rem;
+      color: var(--primary);
+      margin: 20px 0;
+    }
+    .news-meta {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      color: var(--text-light);
+      margin-bottom: 20px;
+    }
+    .featured-image {
+      width: 100%;
+      max-height: 500px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin: 30px 0;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    .news-content {
+      line-height: 1.8;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .news-content p {
+      margin-bottom: 20px;
+    }
+    .news-content img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin: 20px 0;
+    }
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--primary);
+      text-decoration: none;
+      margin-bottom: 20px;
+      font-weight: 500;
+    }
+    .share-buttons {
+      display: flex;
+      gap: 10px;
+      margin-top: 40px;
+      justify-content: center;
+    }
+    .share-btn {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      transition: transform 0.3s;
+    }
+    .share-btn:hover {
+      transform: translateY(-3px);
+    }
+    .facebook { background: #3b5998; }
+    .instagram { background: #e1306c; } 
+    .whatsapp { background: #25d366; }
+  </style>
+</head>
+<body>
+  <header class="glass-header">
+    <div class="container">
+      <div class="header-content">
+        <div class="logo">
+          <img src="../assets/images/logo-dinas.png" alt="Logo Dinas" class="logo-img">
+          <div class="logo-text">
+            <h1>Dinas Koperasi Usaha Kecil Menengah dan Tenaga Kerja Kabupaten Bulukumba</h1>
+          </div>
+        </div>
+        <nav>
+          <ul class="nav-menu">
+            <li><a href="../index.html"><i class="fas fa-home"></i> Beranda</a></li>
+            <li><a href="news.html" class="active"><i class="fas fa-newspaper"></i> Berita</a></li>
+            <li><a href="../services.html"><i class="fas fa-handshake"></i> Layanan</a></li>
+            <li><a href="../organization.html"><i class="fas fa-sitemap"></i> Struktur</a></li>
+            <li><a href="../about.html"><i class="fas fa-info-circle"></i> Tentang</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="container news-detail-section">
+      <a href="news.html" class="back-link"><i class="fas fa-arrow-left"></i> Kembali ke Berita</a>
+      
+      <article id="news-detail">
+       
+      </article>
+
+      <div class="share-buttons">
+        <a href="#" class="share-btn facebook" title="Share ke Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="share-btn instagram" title="Share ke Instagram Story"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="share-btn whatsapp" title="Share ke WhatsApp"><i class="fab fa-whatsapp"></i></a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="../assets/images/logo-dinas.png" alt="Logo Dinas" class="logo-img">
+          <p>Membangun ekonomi kerakyatan yang kuat dan mandiri melalui pengembangan koperasi, UKM, dan tenaga kerja.</p>
+        </div>
+        <div class="footer-contact">
+          <h5>Kontak Kami</h5>
+          <p><i class="fas fa-map-marker-alt"></i> JL Bandeng, No. 20, Terang-Terang, Bentengnge, Kec. Ujung Bulu, Kabupaten Bulukumba, Sulawesi Selatan 92517</p>
+          <p><i class="fas fa-envelope"></i> dinaskukm@kota.go.id</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Dinas Koperasi Usaha Kecil Menengah dan Tenaga Kerja. Hak cipta dilindungi.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../assets/js/news-detail.js"></script>
+  <script>
+    // Share buttons functionality
+    document.addEventListener('DOMContentLoaded', function() {
+      const shareBtns = document.querySelectorAll('.share-btn');
+      const currentUrl = encodeURIComponent(window.location.href);
+      const title = encodeURIComponent(document.title);
+      const newsImage = document.querySelector('.featured-image')?.src || '';
+      
+      shareBtns.forEach(btn => {
+        btn.addEventListener('click', function(e) {
+          e.preventDefault();
+          let url = '';
+          
+          if (this.classList.contains('facebook')) {
+            url = `https://www.facebook.com/sharer/sharer.php?u=${currentUrl}`;
+          } else if (this.classList.contains('instagram')) {
+            // Instagram Story sharing (hanya bekerja di mobile)
+            url = `https://www.instagram.com/stories/create?source_application=news&story_media=${encodeURIComponent(newsImage)}&story_title=${title}`;
+            alert('Untuk membagikan ke Instagram Story, buka halaman ini di perangkat mobile');
+          } else if (this.classList.contains('whatsapp')) {
+            url = `https://wa.me/?text=${title}%20${currentUrl}`;
+          }
+          
+          if (url) window.open(url, '_blank', 'width=600,height=400');
+        });
+      });
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+{
+  "pimpinan": [
+    {
+      "jabatan": "Bupati Bulukumba",
+      "nama": "H. A. Muchtar Ali Yusuf",
+      "foto": "assets/images/leaders/bupati.webp",
+      "keterangan": "Penanggung Jawab Utama"
+    },
+    {
+      "jabatan": "Wakil Bupati Bulukumba",
+      "nama": "Drs. H. A. Edy Manaf",
+      "foto": "assets/images/leaders/wakil-bupati.webp",
+      "keterangan": "Penanggung Jawab Bidang"
+    }
+  ],
+  "kepala_dinas": [
+    {
+      "jabatan": "Kepala Dinas",
+      "nama": "A. Esfar Tenrisukki, S.Sos,M.Si",
+      "foto": "assets/images/leaders/kepala-dinas.webp",
+      "keterangan": "Penanggung Jawab Operasional"
+    }
+  ],
+  "sekretariat": [
+    {
+      "jabatan": "Sekretaris",
+      "nama": "Wahyudin, S.STP, M.Si",
+      "foto": "assets/images/leaders/sekretaris.jpg",
+      "keterangan": "Kepala Sekretariat"
+    }
+  ],
+  "sub_bagian": [
+    {
+      "jabatan": "Kasubag Umum & Kepegawaian",
+      "nama": "Sukiati, S.Pd",
+      "foto": "assets/images/leaders/kasubbag-umum.webp",
+      "keterangan": "Membawahi Urusan Internal"
+    },
+    {
+      "jabatan": "Kasubag Keuangan",
+      "nama": "Hasna Rauf",
+      "foto": "assets/images/leaders/kasubbag-keuangan.webp",
+      "keterangan": "Membawahi Urusan Anggaran"
+    },
+    {
+      "jabatan": "Kasubag Program",
+      "nama": "Agus Salim, S. STP",
+      "foto": "assets/images/leaders/kasubag-program.webp",
+      "keterangan": "Membawahi Perencanaan Program"
+    }
+  ],
+  "kepala_bidang": [
+    {
+      "jabatan": "Kepala Bidang Koperasi",
+      "nama": "Sri Irma M, S.STP, M.Si",
+      "foto": "assets/images/leaders/kabid-koperasi.webp",
+      "keterangan": "Mengelola Sektor Koperasi"
+    },
+    {
+      "jabatan": "Kepala Bidang UKM",
+      "nama": "Andi Majnani, SE",
+      "foto": "assets/images/leaders/kabid-ukm.jpg",
+      "keterangan": "Mengelola Sektor UKM"
+    },
+    {
+      "jabatan": "Kepala Bidang Tenaga Kerja",
+      "nama": "A. Minarmi, SE",
+      "foto": "assets/images/leaders/kabid-naker.jpg",
+      "keterangan": "Mengelola Sektor Tenaga Kerja"
+    }
+  ]
+}

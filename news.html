@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Berita - Dinas Koperasi Usaha Kecil Menengah dan Tenaga Kerja</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <style>
+    /* News Section Styles */
+    .news-section {
+      padding: 60px 0;
+      background-color: #f8fafc;
+    }
+    
+    .section-header {
+      margin-bottom: 30px;
+    }
+    
+    .section-title {
+      color: #016064;
+      position: relative;
+      padding-bottom: 15px;
+    }
+    
+    /* .section-title::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 80px;
+      height: 3px;
+      background-color: #ff7d00;
+    } */
+    
+    /* News Grid Layout */
+    .news-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+      gap: 30px;
+    }
+    
+    /* News Card Styles */
+    .news-card {
+      background: white;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+    
+    .news-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    }
+    
+    .card-image-container {
+      height: 200px;
+      overflow: hidden;
+    }
+    
+    .card-image-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.5s ease;
+    }
+    
+    .news-card:hover .card-image-container img {
+      transform: scale(1.05);
+    }
+    
+    .card-body {
+      padding: 20px;
+    }
+    
+    .news-category {
+      display: inline-block;
+      background: #016064;
+      color: white;
+      padding: 4px 12px;
+      border-radius: 50px;
+      font-size: 0.75rem;
+      font-weight: 500;
+      margin-bottom: 10px;
+    }
+    
+    .news-date {
+      display: block;
+      color: #6c757d;
+      font-size: 0.8rem;
+      margin-bottom: 10px;
+    }
+    
+    .news-title {
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+      color: #333;
+      line-height: 1.4;
+    }
+    
+    .news-excerpt {
+      color: #6c757d;
+      font-size: 0.9rem;
+      line-height: 1.6;
+      margin-bottom: 15px;
+    }
+    
+    .read-more {
+      color: #016064;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 0.9rem;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      transition: color 0.3s ease;
+    }
+    
+    .read-more:hover {
+      color: #ff7d00;
+    }
+    
+    /* Responsive Adjustments */
+    @media (max-width: 768px) {
+      .news-grid {
+        grid-template-columns: 1fr;
+      }
+      
+      .card-image-container {
+        height: 180px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="glass-header">
+    <div class="container">
+      <div class="header-content">
+        <div class="logo">
+          <img src="../assets/images/logo-dinas.png" alt="Logo Dinas" class="logo-img">
+          <div class="logo-text">
+            <h1>Dinas Koperasi, Usaha Kecil, Menengah dan Tenaga Kerja Kabupaten Bulukumba</h1>
+          </div>
+        </div>
+        <nav>
+          <ul class="nav-menu">
+            <li><a href="../index.html"><i class="fas fa-home"></i> Beranda</a></li>
+            <li><a href="news.html" class="active"><i class="fas fa-newspaper"></i> Berita</a></li>
+            <li><a href="../services.html"><i class="fas fa-handshake"></i> Layanan</a></li>
+            <li><a href="../organization.html"><i class="fas fa-sitemap"></i> Struktur</a></li>
+            <li><a href="../about.html"><i class="fas fa-info-circle"></i> Tentang</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="news-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Berita Terkini</h2>
+        </div>
+        
+        <div class="news-grid" id="news-container">
+          <!-- Berita akan dimuat di sini oleh JavaScript -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="assets/images/logo-dinas.png" alt="Logo Dinas" class="logo-img">
+          <p>Membangun ekonomi kerakyatan yang kuat dan mandiri melalui pengembangan koperasi, UKM, dan tenaga kerja.</p>
+        </div>
+        <!-- <div class="footer-links">
+          <h5>Tautan Cepat</h5>
+          <ul>
+            <li><a href="#">PPID</a></li>
+            <li><a href="#">Pengaduan</a></li>
+            <li><a href="#">Galeri</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>
+        </div> -->
+        <div class="footer-contact">
+          <h5>Kontak Kami</h5>
+          <p><i class="fas fa-map-marker-alt"></i> JL Bandeng, No. 20, Terang-Terang, Bentengnge, Kec. Ujung Bulu, Kabupaten Bulukumba, Sulawesi Selatan 92517</p>
+          <p><i class="fas fa-envelope"></i> dkukmnaker@gmail.com</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Dinas Koperasi Usaha Kecil Menengah dan Tenaga Kerja. Hak cipta dilindungi.</p>
+        <!-- <div class="social-media">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div> -->
+      </div>
+    </div>
+  </footer>
+
+  <script src="../assets/js/news.js"></script>
+</body>
+</html>

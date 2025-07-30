@@ -1,0 +1,26 @@
+{
+  "koperasi-baru": {
+    "title": "Pendaftaran Koperasi Baru",
+    "content": "<h4>Persyaratan:</h4><ol><li>Fotokopi KTP para pendiri (minimal 9 orang untuk Koperasi Primer).</li><li>Surat permohonan pendaftaran yang ditandatangani oleh pendiri.</li><li>Dua rangkap Akta Pendirian Koperasi, satu di antaranya bermeterai.</li><li>Berita acara rapat pembentukan koperasi.</li><li>Daftar hadir rapat pembentukan.</li><li>Rencana Awal Kegiatan Usaha Koperasi (minimal satu tahun ke depan).</li></ol><h4>Prosedur:</h4><p>1. Pengajuan berkas ke kantor dinas.<br>2. Verifikasi dokumen oleh petugas.<br>3. Penerbitan Sertifikat Badan Hukum Koperasi jika dinyatakan lengkap dan sah.</p>"
+  },
+  "pembinaan-koperasi": {
+    "title": "Pembinaan dan Pendampingan Koperasi",
+    "content": "<h4>Jadwal Pembinaan:</h4><p>Program pembinaan rutin dilaksanakan setiap 3 bulan sekali. Jadwal spesifik akan diinformasikan melalui surat edaran kepada setiap koperasi terdaftar.</p><h4>Materi Pembinaan:</h4><ul><li>Manajemen Kelembagaan Koperasi</li><li>Kesehatan Unit Simpan Pinjam</li><li>Penyusunan Laporan Pertanggungjawaban (RAT)</li><li>Akses Permodalan</li></ul>"
+  },
+  "pendaftaran-ukm": {
+    "title": "Pendaftaran Izin Usaha Mikro Kecil (IUMK)",
+    "content": "<h4>Persyaratan:</h4><ol><li>Fotokopi KTP pemohon.</li><li>Fotokopi Kartu Keluarga (KK).</li><li>Pas foto berwarna ukuran 4x6 (2 lembar).</li><li>Surat pengantar dari Desa/Kelurahan setempat.</li></ol><h4>Prosedur:</h4><p>Pendaftaran dapat dilakukan secara online melalui sistem OSS (Online Single Submission) atau datang langsung ke Mal Pelayanan Publik (MPP) Kabupaten Bulukumba dengan membawa persyaratan di atas.</p>"
+  },
+  "pelatihan-ukm": {
+    "title": "Program Pelatihan UKM",
+    "content": "<h4>Program Unggulan:</h4><ul><li><b>Pelatihan Digital Marketing:</b> Meningkatkan penjualan melalui media sosial dan marketplace.</li><li><b>Pelatihan Kemasan Produk:</b> Membuat kemasan yang menarik dan aman.</li><li><b>Pelatihan Manajemen Keuangan:</b> Pencatatan keuangan sederhana untuk usaha.</li></ul><p>Informasi jadwal dan pendaftaran akan diumumkan secara berkala di halaman Berita dan media sosial kami.</p>"
+  },
+  "lowongan-kerja": {
+    "title": "Informasi Lowongan Kerja (Job Fair)",
+    "content": "<h4>Layanan Bursa Kerja:</h4><p>Kami secara rutin mengadakan Job Fair yang mempertemukan perusahaan dengan para pencari kerja. Pantau terus halaman Berita dan media sosial kami untuk informasi Job Fair terdekat.</p><p>Anda juga bisa datang langsung ke dinas untuk melihat papan informasi lowongan kerja yang diperbarui setiap minggu.</p>"
+  },
+  "pelatihan-kerja": {
+    "title": "Pelatihan Keterampilan Kerja",
+    "content": "<h4>Jenis Pelatihan:</h4><p>Bekerja sama dengan Balai Latihan Kerja (BLK), kami menyediakan berbagai pelatihan gratis berbasis kompetensi, seperti:</p><ul><li>Operator Komputer</li><li>Teknisi Sepeda Motor</li><li>Menjahit Pakaian</li><li>Pengolahan Hasil Pertanian</li></ul><h4>Pendaftaran:</h4><p>Pendaftaran dibuka per gelombang. Silakan hubungi bidang Tenaga Kerja untuk informasi jadwal pendaftaran terdekat.</p>"
+  }
+}

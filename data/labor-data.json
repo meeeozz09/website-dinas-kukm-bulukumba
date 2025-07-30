@@ -1,0 +1,30 @@
+{
+  "page_title": "Bidang Tenaga Kerja",
+  "page_subtitle": "Menciptakan tenaga kerja yang kompeten, produktif, dan sejahtera serta memperluas kesempatan kerja.",
+  "statistics": [
+    { "value": "2.792", "label": "Pencari Kerja Terdaftar" },
+    { "value": "2.192", "label": "Peserta Pelatihan Kerja" },
+    { "value": "414", "label": "Penempatan Kerja Berhasil" }
+  ],
+  "main_content": {
+    "title": "Tugas Pokok & Fungsi",
+    "description": "<p>Bidang Tenaga Kerja mempunyai tugas membantu Kepala Dinas dalam melaksanakan penyiapan pengoordinasian perumusan kebijakan daerah, pengoordinasian pelaksanaan tugas perangkat daerah, pemantauan dan evaluasi pelaksanaan kebijakan daerah di bidang tenaga kerja.</p><h4>Fungsi Bidang Tenaga Kerja:</h4><ol><li>Perumusan kebijakan teknis di bidang tenaga kerja dan transmigrasi.</li><li>Pelaksanaan kebijakan teknis di bidang tenaga kerja dan transmigrasi.</li><li>Pelaksanaan evaluasi dan pelaporan di bidang tenaga kerja dan transmigrasi.</li><li>Pelaksanaan administrasi lingkup Bidang Tenaga Kerja.</li><li>Pelaksanaan tugas kedinasan lain yang diperintahkan oleh pimpinan.</li></ol>"
+  },
+  "dominant_sector": {
+    "title": "Sektor Paling Diminati",
+    "sectors": [
+      { "icon": "fa-gem", "name": "Pertambangan", "count": "N/A" },
+      { "icon": "fa-hard-hat", "name": "Konstruksi", "count": "N/A" },
+      { "icon": "fa-industry", "name": "Industri Pengolahan", "count": "N/A" }
+    ]
+  },
+  "featured_services": {
+    "title": "Layanan Unggulan Bidang Tenaga Kerja",
+    "services": [
+      { "icon": "fa-id-card-alt", "title": "Pendaftaran Kartu AK-1", "description": "Layanan pembuatan Kartu Tanda Bukti Pendaftaran Pencari Kerja (AK-1) atau yang dikenal sebagai Kartu Kuning." },
+      { "icon": "fa-calendar-check", "title": "Job Fair & Bursa Kerja", "description": "Menyelenggarakan bursa kerja untuk mempertemukan pencari kerja dengan perusahaan penyedia lowongan." },
+      { "icon": "fa-user-cog", "title": "Pelatihan Berbasis Kompetensi", "description": "Program pelatihan gratis yang diselenggarakan bersama BLK untuk meningkatkan keahlian sesuai kebutuhan industri." },
+      { "icon": "fa-balance-scale", "title": "Penyelesaian Perselisihan", "description": "Layanan mediasi dan konsultasi untuk penyelesaian perselisihan hubungan industrial antara pekerja dan perusahaan." }
+    ]
+  }
+}

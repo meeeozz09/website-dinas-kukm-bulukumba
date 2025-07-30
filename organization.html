@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Struktur Organisasi - Dinas Koperasi, Usaha Kecil, Menengah, dan Tenaga Kerja</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    /* Organization Page Specific Styles */
+    .org-section {
+      padding: 60px 0;
+      background-color: #f8fafc;
+    }
+    
+    .org-header {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+    
+    .org-header h2 {
+      color: #016064;
+      position: relative;
+      padding-bottom: 15px;
+    }
+    
+    .org-header h2::after {
+      content: '';
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      transform: translateX(-50%);
+      width: 80px;
+      height: 3px;
+      background-color: #ff7d00;
+    }
+    
+    /* Leadership Structure */
+    .leadership-structure {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 50px;
+    }
+    
+    .top-leadership {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-bottom: 40px;
+      flex-wrap: wrap;
+    }
+    
+    .leader-card {
+      background: white;
+      border-radius: 10px;
+      padding: 25px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      width: 280px;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+    
+    .leader-card:hover {
+      transform: translateY(-5px);
+    }
+    
+    .leader-img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 5px solid #e0f7f1;
+      margin: 0 auto 15px;
+    }
+    
+    .leader-position {
+      color: #016064;
+      font-weight: 600;
+      margin-bottom: 5px;
+    }
+    
+    .leader-name {
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+      color: #333;
+    }
+    
+    /* Department Structure */
+    .department-structure {
+      background: white;
+      border-radius: 10px;
+      padding: 30px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    
+    .org-chart {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .org-level {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 30px;
+      flex-wrap: wrap;
+    }
+    
+    .org-unit {
+      background: #e0f7f1;
+      border-radius: 8px;
+      padding: 15px;
+      margin: 0 15px 15px;
+      text-align: center;
+      min-width: 200px;
+      position: relative;
+    }
+    
+    .org-unit::after {
+      content: '';
+      position: absolute;
+      bottom: -15px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 2px;
+      height: 15px;
+      background: #016064;
+    }
+    
+    .org-unit:last-child::after {
+      display: none;
+    }
+    
+    .unit-name {
+      font-weight: 600;
+      color: #016064;
+      margin-bottom: 5px;
+    }
+    
+    .unit-head {
+      font-size: 0.9rem;
+      color: #333;
+    }
+    
+    /* Responsive Adjustments */
+    @media (max-width: 768px) {
+      .top-leadership {
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .org-level {
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .org-unit {
+        margin-bottom: 30px;
+      }
+      
+      .org-unit::after {
+        display: block;
+      }
+
+      .org-group {
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 2px dashed #e0e0e0;
+}
+
+.group-title {
+    color: #016064;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.subordinate-level {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+    width: 100%;
+    justify-content: center; /* Pastikan bawahan berada di tengah */
+}
+    }
+  </style>
+</head>
+<body>
+   <header class="glass-header">
+    <div class="container">
+      <div class="header-content">
+        <div class="logo">
+          <img src="assets/images/logo-dinas.png" alt="Logo Dinas" class="logo-img">
+          <div class="logo-text">
+            <h1>Dinas Koperasi, Usaha Kecil, Menengah, dan Tenaga Kerja Kab. Bulukumba</h1>
+          </div>
+        </div>
+        <nav>
+          <ul class="nav-menu">
+            <li><a href="index.html" class="active"><i class="fas fa-home"></i> Beranda</a></li>
+            <li><a href="news.html"><i class="fas fa-newspaper"></i> Berita</a></li>
+            <li><a href="services.html"><i class="fas fa-handshake"></i> Layanan</a></li>
+            <li><a href="organization.html"><i class="fas fa-sitemap"></i> Struktur</a></li>
+            <li><a href="about.html"><i class="fas fa-info-circle"></i> Tentang</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+ <main>
+    <section class="org-section">
+        <div class="container">
+            <div class="org-header">
+                <h2>Struktur Organisasi</h2>
+                <p>Susunan kepemimpinan dan struktur organisasi Dinas Koperasi, UKM, dan Tenaga Kerja</p>
+            </div>
+            
+            <div id="organization-root"></div>
+
+        </div>
+    </section>
+</main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="assets/images/logo-dinas.png" alt="Logo Dinas" class="logo-img">
+          <p>Membangun ekonomi kerakyatan yang kuat dan mandiri melalui pengembangan koperasi, UKM, dan tenaga kerja.</p>
+        </div>
+        <!-- <div class="footer-links">
+          <h5>Tautan Cepat</h5>
+          <ul>
+            <li><a href="#">PPID</a></li>
+            <li><a href="#">Pengaduan</a></li>
+            <li><a href="#">Galeri</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>
+        </div> -->
+        <div class="footer-contact">
+          <h5>Kontak Kami</h5>
+          <p><i class="fas fa-map-marker-alt"></i> JL Bandeng, No. 20, Terang-Terang, Bentengnge, Kec. Ujung Bulu, Kabupaten Bulukumba, Sulawesi Selatan 92517</p>
+          <p><i class="fas fa-envelope"></i> dkukmnaker@gmail.com</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Dinas Koperasi, Usaha Kecil, Menengah, dan Tenaga Kerja. Hak cipta dilindungi.</p>
+        <!-- <div class="social-media">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.instagram.com/akhmad.adzz/" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div> -->
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const rootContainer = document.getElementById('organization-root');
+
+        // Fungsi untuk membuat HTML satu kartu profil
+        function createCardHTML(pejabat) {
+            // Jika data pejabat tidak ada, kembalikan string kosong
+            if (!pejabat) return ''; 
+            return `
+                <div class="leader-card">
+                    <img src="${pejabat.foto}" alt="${pejabat.jabatan}" class="leader-img">
+                    <div class="leader-position">${pejabat.jabatan}</div>
+                    <h4 class="leader-name">${pejabat.nama}</h4>
+                    <p>${pejabat.keterangan || ''}</p>
+                </div>
+            `;
+        }
+        
+        // Fungsi untuk membuat grup HTML (misal: Sekretaris dan bawahannya)
+        function createGroupHTML(title, mainCardData, subordinateData) {
+            // Jika tidak ada data utama (mainCardData), jangan buat grupnya
+            if (!mainCardData || mainCardData.length === 0) return '';
+            
+            // Buat HTML untuk kartu utama (atasan)
+            const mainCardsHTML = mainCardData.map(createCardHTML).join('');
+            
+            // Buat HTML untuk kartu bawahan, jika ada
+            const subordinateCardsHTML = subordinateData ? `
+                <div class="top-leadership subordinate-level">
+                    ${subordinateData.map(createCardHTML).join('')}
+                </div>
+            ` : '';
+            
+            return `
+                <div class="leadership-structure org-group">
+                    <h3 class="group-title">${title}</h3>
+                    <div class="top-leadership">${mainCardsHTML}</div>
+                    ${subordinateCardsHTML}
+                </div>
+            `;
+        }
+
+        // Fungsi utama untuk memuat semua data
+        async function loadOrganization() {
+            try {
+                const response = await fetch('data/opd.json');
+                const data = await response.json();
+
+                let finalHTML = '';
+
+                // Tambahkan grup Pimpinan Daerah, Kepala Dinas, Sekretariat + Sub Bagian
+                finalHTML += createGroupHTML('Pimpinan Daerah', data.pimpinan);
+                finalHTML += createGroupHTML('Kepala Dinas', data.kepala_dinas);
+                finalHTML += createGroupHTML('Sekretariat', data.sekretariat, data.sub_bagian); // Sekretaris sebagai atasan, Sub Bagian sebagai bawahan
+                finalHTML += createGroupHTML('Kepala Bidang', data.kepala_bidang, data.kepala_seksi); // Kepala Bidang sebagai atasan, Kepala Seksi sebagai bawahan
+
+                rootContainer.innerHTML = finalHTML;
+
+            } catch (error) {
+                console.error('Gagal memuat data organisasi:', error);
+                rootContainer.innerHTML = '<p style="text-align:center;">Gagal memuat struktur organisasi.</p>';
+            }
+        }
+
+        loadOrganization();
+    });
+    </script>
+</body>
+</html>

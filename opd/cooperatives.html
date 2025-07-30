@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bidang Koperasi - Dinas Koperasi UKM dan Tenaga Kerja</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+
+    <style>
+        /* Improved Responsive CSS for Content Sections */
+        .stats-section {
+            padding: 40px 0;
+            background-color: #f8fafc;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            text-align: center;
+            padding: 0 15px;
+        }
+        
+        .stat-card {
+            background: white;
+            padding: 25px 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease;
+        }
+        
+        .stat-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .stat-card h4 {
+            font-size: clamp(1.8rem, 5vw, 2.5rem);
+            color: #016064;
+            margin-bottom: 5px;
+            font-weight: 600;
+        }
+        
+        .stat-card p {
+            font-size: clamp(0.9rem, 2vw, 1rem);
+            color: #6c757d;
+            line-height: 1.5;
+        }
+        
+        .about-section {
+            padding: 40px 0;
+        }
+        
+        .content-box {
+            background-color: #fff;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            max-width: 100%;
+            margin: 0 15px;
+            width: calc(100% - 30px);
+        }
+        
+        .content-box h3 {
+            font-size: clamp(1.4rem, 4vw, 1.8rem);
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 20px;
+            text-align: center;
+            line-height: 1.3;
+        }
+        
+        .content-divider {
+            border: 0;
+            height: 1px;
+            background-color: #eee;
+            margin: 30px 0;
+        }
+        
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 0 10px;
+        }
+        
+        .service-card-simple {
+            background-color: #f8fafc;
+            border: 1px solid #eef2f7;
+            padding: 20px 15px;
+            border-radius: 10px;
+            text-align: center;
+            transition: all 0.3s ease;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .service-card-simple:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+        }
+        
+        .card-icon-simple {
+            width: 60px;
+            height: 60px;
+            margin: 0 auto 15px;
+            border-radius: 50%;
+            background-color: #e0f7f1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+        
+        .card-icon-simple i {
+            font-size: 1.5rem;
+            color: #016064;
+        }
+        
+        .service-card-simple h4 {
+            font-size: clamp(1rem, 3vw, 1.2rem);
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 10px;
+            line-height: 1.3;
+        }
+        
+        .service-card-simple p {
+            font-size: clamp(0.85rem, 2vw, 0.95rem);
+            color: #6c757d;
+            line-height: 1.5;
+            margin-top: auto;
+        }
+        
+        /* Page Header Styles */
+        .page-header {
+            padding: 60px 0 30px;
+            text-align: center;
+            background: linear-gradient(135deg, #016064, #028a8e);
+            color: white;
+        }
+        
+        .page-header h1 {
+            font-size: clamp(1.8rem, 5vw, 2.5rem);
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+        
+        .page-header p {
+            font-size: clamp(1rem, 2.5vw, 1.2rem);
+            max-width: 800px;
+            margin: 0 auto;
+            opacity: 0.9;
+        }
+        
+        /* Main Content Text Styles */
+        #main-content-desc-placeholder {
+            font-size: clamp(0.95rem, 2.5vw, 1.05rem);
+            line-height: 1.7;
+            color: #555;
+            text-align: justify;
+        }
+        
+        /* Responsive Adjustments */
+        @media (min-width: 768px) {
+            .content-box {
+                padding: 40px;
+                margin: 0 auto;
+                width: calc(100% - 80px);
+                max-width: 900px;
+            }
+            
+            .stats-grid {
+                padding: 0;
+            }
+            
+            .services-grid {
+                padding: 0;
+            }
+        }
+        
+        @media (max-width: 576px) {
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .service-card-simple {
+                max-width: 300px;
+                margin: 0 auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="glass-header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="../assets/images/logo-dinas.png" alt="Logo Dinas" class="logo-img">
+                    <div class="logo-text">
+                        <h1>Dinas Koperasi Usaha Kecil Menengah dan Tenaga Kerja Kabupaten Bulukumba</h1>
+                    </div>
+                </div>
+                <nav>
+                    <ul class="nav-menu">
+                        <li><a href="../index.html"><i class="fas fa-home"></i> Beranda</a></li>
+                        <li><a href="news.html" class="active"><i class="fas fa-newspaper"></i> Berita</a></li>
+                        <li><a href="../services.html"><i class="fas fa-handshake"></i> Layanan</a></li>
+                        <li><a href="../organization.html"><i class="fas fa-sitemap"></i> Struktur</a></li>
+                        <li><a href="../about.html"><i class="fas fa-info-circle"></i> Tentang</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1 id="page-title-placeholder"></h1>
+                <p id="page-subtitle-placeholder"></p>
+            </div>
+        </section>
+
+        <section class="stats-section">
+            <div class="container">
+                <div id="stats-container" class="stats-grid"></div>
+            </div>
+        </section>
+
+        <section class="about-section" id="main-content-container">
+            <div class="container content-box">
+                <h3 id="main-content-title-placeholder"></h3>
+                <p id="main-content-desc-placeholder"></p>
+
+                <hr class="content-divider">
+
+                <h3 id="types-title-placeholder"></h3>
+                <div id="types-container" class="services-grid"></div>
+
+                <hr class="content-divider">
+                
+                <h3 id="services-title-placeholder"></h3>
+                <div id="services-container" class="services-grid"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="../assets/images/logo-dinas.png" alt="Logo Dinas" class="logo-img">
+                    <p>Membangun ekonomi kerakyatan yang kuat dan mandiri melalui pengembangan koperasi, UKM, dan tenaga kerja.</p>
+                </div>
+                <div class="footer-contact">
+                    <h5>Kontak Kami</h5>
+                    <p><i class="fas fa-map-marker-alt"></i> JL Bandeng, No. 20, Terang-Terang, Bentengnge, Kec. Ujung Bulu, Kabupaten Bulukumba, Sulawesi Selatan 92517</p>
+                    <p><i class="fas fa-envelope"></i> dinaskukm@kota.go.id</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Dinas Koperasi Usaha Kecil Menengah dan Tenaga Kerja. Hak cipta dilindungi.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../assets/js/main.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Fungsi untuk memuat dan menampilkan semua data
+            async function loadCooperativeData() {
+                try {
+                    const response = await fetch('../data/cooperative-data.json');
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! status: ${response.status}`);
+                    }
+                    const data = await response.json();
+
+                    // 1. Isi Judul Halaman
+                    document.getElementById('page-title-placeholder').textContent = data.page_title;
+                    document.getElementById('page-subtitle-placeholder').textContent = data.page_subtitle;
+
+                    // 2. Isi Statistik
+                    const statsContainer = document.getElementById('stats-container');
+                    statsContainer.innerHTML = data.statistics.map(stat => `
+                        <div class="stat-card">
+                            <h4>${stat.value}</h4>
+                            <p>${stat.label}</p>
+                        </div>
+                    `).join('');
+
+                    // 3. Isi Konten Utama
+                    document.getElementById('main-content-title-placeholder').textContent = data.main_content.title;
+                    document.getElementById('main-content-desc-placeholder').textContent = data.main_content.description;
+
+                    // 4. Isi Jenis Koperasi
+                    document.getElementById('types-title-placeholder').textContent = data.cooperative_types.title;
+                    const typesContainer = document.getElementById('types-container');
+                    typesContainer.innerHTML = data.cooperative_types.types.map(type => `
+                        <div class="service-card-simple">
+                            <div class="card-icon-simple"><i class="fas ${type.icon}"></i></div>
+                            <h4>${type.name}</h4>
+                            <p>Jumlah: ${type.count} Unit</p>
+                        </div>
+                    `).join('');
+
+                    // // 5. Isi Layanan Unggulan
+                    // document.getElementById('services-title-placeholder').textContent = data.featured_services.title;
+                    // const servicesContainer = document.getElementById('services-container');
+                    // servicesContainer.innerHTML = data.featured_services.services.map(service => `
+                    //     <div class="service-card-simple">
+                    //         <div class="card-icon-simple"><i class="fas ${service.icon}"></i></div>
+                    //         <h4>${service.title}</h4>
+                    //         <p>${service.description}</p>
+                    //     </div>
+                    // `).join('');
+
+                } catch (error) {
+                    console.error('Gagal memuat data koperasi:', error);
+                    document.getElementById('main-content-container').innerHTML = 
+                        '<div class="content-box"><p style="text-align:center; color:red; padding: 40px 0;">Gagal memuat data. Silakan coba lagi nanti.</p></div>';
+                }
+            }
+
+            loadCooperativeData();
+        });
+    </script>
+</body>
+</html>

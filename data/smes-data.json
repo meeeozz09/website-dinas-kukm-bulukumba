@@ -1,0 +1,35 @@
+{
+  "page_title": "Bidang UKM",
+  "page_subtitle": "Mendorong pertumbuhan Usaha Kecil Menengah yang inovatif, berdaya saing, dan berkelanjutan.",
+  "statistics": [
+    { "value": "7.260", "label": "UKM Terdaftar di OSS (2023-2025)" },
+    { "value": "389", "label": "UKM Baru (2025)" },
+    { "value": "390", "label": "UKM Binaan Dinas (2024-2025)" }
+  ],
+  "main_content": {
+    "title": "Tugas Pokok & Fungsi",
+    "description": "Bidang UKM berfokus pada pemberdayaan dan pengembangan kapasitas para pelaku usaha kecil dan menengah di Kabupaten Bulukumba. Kami menyediakan ekosistem yang mendukung mulai dari perizinan, pelatihan, hingga promosi produk."
+  },
+  "dominant_sector": {
+    "title": "Sektor Usaha UKM Dominan",
+    "sectors": [
+      { "icon": "fa-utensils", "name": "Kuliner", "count": 5772 },
+      { "icon": "fa-tshirt", "name": "Fashion", "count": "-" },
+      { "icon": "fa-box-open", "name": "Jasa", "count": "-" },
+      { "icon": "fa-hammer", "name": "Jasa Pertukangan", "count": "-" },
+      { "icon": "fa-couch", "name": "Jasa Meubel", "count": "-" },
+      { "icon": "fa-tools", "name": "Jasa Perbengkelan", "count": "-" },
+      { "icon": "fa-cut", "name": "Jasa Tailor ", "count": "-" },
+      { "icon": "fa-ellipsis-h", "name": "Lain-lain", "count": "-" }
+    ]
+  },
+  "featured_services": {
+    "title": "Layanan Unggulan Bidang UKM",
+    "services": [
+      { "icon": "fa-id-card", "title": "Fasilitasi Perizinan (NIB)", "description": "Membantu pelaku UKM mendapatkan Nomor Induk Berusaha (NIB) melalui sistem Online Single Submission (OSS)." },
+      { "icon": "fa-store", "title": "Pelatihan Pemasaran Digital", "description": "Meningkatkan jangkauan pasar produk UKM melalui pelatihan media sosial, marketplace, dan fotografi produk." },
+      { "icon": "fa-check-circle", "title": "Sertifikasi Halal & PIRT", "description": "Pendampingan dalam proses pengajuan sertifikasi Halal dan Pangan Industri Rumah Tangga (PIRT)." },
+      { "icon": "fa-box-open", "title": "Klinik Desain Kemasan", "description": "Layanan konsultasi dan bantuan untuk membuat kemasan produk yang lebih menarik dan menjual." }
+    ]
+  }
+}

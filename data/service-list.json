@@ -1,0 +1,50 @@
+[
+  {
+    "category": "koperasi",
+    "icon": "fa-hand-holding-usd",
+    "title": "Pendaftaran Koperasi Baru",
+    "description": "Layanan pendaftaran dan legalisasi koperasi baru di wilayah Kabupaten Bulukumba.",
+    "data_key": "koperasi-baru",
+    "link_text": "Lihat Persyaratan"
+  },
+  {
+    "category": "koperasi",
+    "icon": "fa-file-alt",
+    "title": "Pembinaan Koperasi",
+    "description": "Program pembinaan dan pendampingan untuk pengembangan koperasi yang sehat dan mandiri.",
+    "data_key": "pembinaan-koperasi",
+    "link_text": "Info Jadwal"
+  },
+  {
+    "category": "ukm",
+    "icon": "fa-store",
+    "title": "Pendaftaran IUMK",
+    "description": "Pendaftaran dan sertifikasi Izin Usaha Mikro Kecil (IUMK) untuk pelaku UKM.",
+    "data_key": "pendaftaran-ukm",
+    "link_text": "Daftar Sekarang"
+  },
+  {
+    "category": "ukm",
+    "icon": "fa-chart-line",
+    "title": "Pelatihan UKM",
+    "description": "Program pelatihan dan pengembangan kapasitas untuk para pelaku Usaha Kecil Menengah.",
+    "data_key": "pelatihan-ukm",
+    "link_text": "Lihat Program"
+  },
+  {
+    "category": "tenaga-kerja",
+    "icon": "fa-briefcase",
+    "title": "Informasi Lowongan Kerja",
+    "description": "Layanan informasi lowongan kerja terbaru dari berbagai sektor di Bulukumba.",
+    "data_key": "lowongan-kerja",
+    "link_text": "Cari Lowongan"
+  },
+  {
+    "category": "tenaga-kerja",
+    "icon": "fa-user-graduate",
+    "title": "Pelatihan Keterampilan",
+    "description": "Program pelatihan keterampilan kerja untuk meningkatkan kompetensi para pencari kerja.",
+    "data_key": "pelatihan-kerja",
+    "link_text": "Daftar Pelatihan"
+  }
+]

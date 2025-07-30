@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layanan - Dinas Koperasi, Usaha Keci, Menengah, dan Tenaga Kerja</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+    /* Services Page Specific Styles */
+    .services-section {
+      padding: 60px 0;
+      background-color: #f8fafc;
+    }
+    
+    .service-categories {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin-bottom: 40px;
+      flex-wrap: wrap;
+    }
+    
+    .category-btn {
+      padding: 10px 20px;
+      border-radius: 50px;
+      background: white;
+      border: 1px solid #016064;
+      color: #016064;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      font-weight: 500;
+    }
+    
+    .category-btn.active,
+    .category-btn:hover {
+      background: #016064;
+      color: white;
+    }
+    
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+      gap: 30px;
+    }
+    
+    .service-card {
+      background: white;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+      transition: all 0.3s ease;
+    }
+    
+    .section-header {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .service-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    }
+    
+    .service-icon {
+      height: 120px;
+      background: #e0f7f1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2.5rem;
+      color: #016064;
+    }
+    
+    .service-body {
+      padding: 25px;
+    }
+    
+    .service-title {
+      font-size: 1.3rem;
+      margin-bottom: 15px;
+      color: #016064;
+    }
+    
+    .service-desc {
+      color: #6c757d;
+      margin-bottom: 20px;
+      line-height: 1.6;
+    }
+    
+    .service-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: #ff7d00;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+    
+    .service-link:hover {
+      color: #016064;
+    }
+    
+    /* Service Detail Modal */
+    .modal {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.5);
+      z-index: 1000;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .modal-content {
+      background: white;
+      border-radius: 10px;
+      width: 90%;
+      max-width: 800px;
+      max-height: 90vh;
+      overflow-y: auto;
+      padding: 30px;
+      position: relative;
+      box-shadow: 0 5px 30px rgba(0,0,0,0.3);
+    }
+    
+    .close-modal {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      font-size: 1.5rem;
+      cursor: pointer;
+      color: #6c757d;
+    }
+    
+    /* Responsive Adjustments */
+    @media (max-width: 768px) {
+      .services-grid {
+        grid-template-columns: 1fr;
+      }
+      
+      .service-icon {
+        height: 100px;
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+    <header class="glass-header">
+    <div class="container">
+      <div class="header-content">
+        <div class="logo">
+          <img src="assets/images/logo-dinas.png" alt="Logo Dinas" class="logo-img">
+          <div class="logo-text">
+            <h1>Dinas Koperasi, Usaha Kecil, Menengah, dan Tenaga Kerja Kabupaten Bulukumba</h1>
+          </div>
+        </div>
+        <nav>
+          <ul class="nav-menu">
+            <li><a href="index.html" class="active"><i class="fas fa-home"></i> Beranda</a></li>
+            <li><a href="news.html"><i class="fas fa-newspaper"></i> Berita</a></li>
+            <li><a href="services.html"><i class="fas fa-handshake"></i> Layanan</a></li>
+            <li><a href="organization.html"><i class="fas fa-sitemap"></i> Struktur</a></li>
+            <li><a href="about.html"><i class="fas fa-info-circle"></i> Tentang</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+    <main>
+        <section class="services-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Layanan Kami</h2>
+                    <p>Berbagai layanan publik yang disediakan oleh Dinas Koperasi, Usaha Kecil, Menengah, dan Tenaga Kerja Kabupaten Bulukumba.</p>
+                </div>
+                
+                <div class="service-categories">
+                    <button class="category-btn active" data-category="all">Semua</button>
+                    <button class="category-btn" data-category="koperasi">Koperasi</button>
+                    <button class="category-btn" data-category="ukm">UKM</button>
+                    <button class="category-btn" data-category="tenaga-kerja">Tenaga Kerja</button>
+                </div>
+                
+                <div class="services-grid" id="services-container">
+                </div>
+                </div>
+            </div>
+        </section>
+        
+        <div class="modal" id="serviceModal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <div id="modal-content">
+                    </div>
+            </div>
+        </div>
+    </main>
+
+     <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="assets/images/logo-dinas.png" alt="Logo Dinas" class="logo-img">
+          <p>Membangun ekonomi kerakyatan yang kuat dan mandiri melalui pengembangan koperasi, UKM, dan tenaga kerja.</p>
+        </div>
+        <!-- <div class="footer-links">
+          <h5>Tautan Cepat</h5>
+          <ul>
+            <li><a href="#">PPID</a></li>
+            <li><a href="#">Pengaduan</a></li>
+            <li><a href="#">Galeri</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>
+        </div> -->
+        <div class="footer-contact">
+          <h5>Kontak Kami</h5>
+          <p><i class="fas fa-map-marker-alt"></i> JL Bandeng, No. 20, Terang-Terang, Bentengnge, Kec. Ujung Bulu, Kabupaten Bulukumba, Sulawesi Selatan 92517</p>
+          <p><i class="fas fa-envelope"></i> dkukmnaker@gmail.com</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Dinas Koperasi, Usaha Kecil, Menengah, dan Tenaga Kerja. Hak cipta dilindungi.</p>
+        <!-- <div class="social-media">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.instagram.com/akhmad.adzz/" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div> -->
+      </div>
+    </div>
+  </footer>
+
+    <script src="assets/js/services.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
