@@ -1,78 +1,127 @@
-# Website Dinas Koperasi, Usaha Kecil, Menengah, dan Tenaga Kerja Kab. Bulukumba
+# 💼 Website Dinas Koperasi, UKM, dan Tenaga Kerja Kabupaten Bulukumba
 
-Selamat datang di repositori resmi Website Dinas Koperasi, Usaha Kecil, Menengah, dan Tenaga Kerja Kabupaten Bulukumba. Website ini dirancang untuk menjadi pusat informasi publik yang modern, cepat, dan mudah dikelola.
+Selamat datang di repositori **Website Dinas Koperasi, Usaha Kecil Menengah, dan Tenaga Kerja (DISKOP UKMNAKER) Kabupaten Bulukumba**. Website ini dirancang sebagai **pusat informasi publik** yang **modern, responsif, dan mudah diperbarui**, khususnya dalam mendukung transparansi layanan dan penyebaran informasi dari tiga bidang utama: Koperasi, UKM, dan Ketenagakerjaan.
 
-Fitur utama dari website ini adalah penggunaan data dinamis dari file JSON, yang memungkinkan pembaruan konten seperti berita, statistik, dan struktur organisasi dapat dilakukan dengan mudah tanpa harus mengubah kode HTML.
+📌 Website ini **menggunakan data dinamis dari file JSON**, sehingga memungkinkan pembaruan konten (berita, statistik, struktur organisasi, layanan, dsb) **tanpa perlu menyentuh kode HTML**.
 
-## Cara Menjalankan Proyek Secara Lokal
+---
 
-Untuk menjalankan dan melihat website ini di komputermu, sangat disarankan menggunakan **Live Server** agar semua data JSON dapat dimuat dengan benar.
+## 🚀 Cara Menjalankan Website Secara Lokal
 
-1.  Buka folder proyek ini menggunakan **Visual Studio Code**.
-2.  Pastikan kamu sudah menginstal ekstensi **"Live Server"** dari marketplace VS Code.
-3.  Klik kanan pada file `index.html` di panel file.
-4.  Pilih **"Open with Live Server"**. Browser akan otomatis terbuka dan menampilkan website.
+Agar semua data JSON termuat dengan benar, **gunakan ekstensi Live Server** di Visual Studio Code:
 
------
+1. Buka folder proyek ini menggunakan **Visual Studio Code**.
+2. Pastikan ekstensi **Live Server** telah terpasang.
+3. Klik kanan pada file `index.html` → pilih **Open with Live Server**.
+4. Website akan terbuka otomatis di browser lokalmu.
 
-## 📝 Panduan Mengelola Konten
+---
 
-Semua konten dinamis website ini diatur melalui file **JSON** yang berada di folder `data/`.
+## 🧩 Struktur & Panduan Pengelolaan Konten
 
-### 1\. Menambah atau Mengubah Berita
+Semua data dinamis berada dalam folder `data/`. Berikut panduan untuk mengelolanya:
 
-Semua berita diatur dalam file `data/news.json`.
+### 📢 1. Berita (News)
 
-  * **Untuk menambah berita baru:**
-    1.  Buka file `data/news.json`.
-    2.  Salin (copy) salah satu objek berita yang sudah ada (dari `{` sampai `}`).
-    3.  Tempel (paste) di bagian paling atas di dalam kurung siku `[...]`, jangan lupa tambahkan koma `,` setelahnya.
-    4.  Ubah isinya:
-          * `"id"`: Ganti dengan angka baru yang belum pernah dipakai.
-          * `"title"`: Judul berita.
-          * `"excerpt"`: Ringkasan singkat berita.
-          * `"date"`: Tanggal berita (format YYYY-MM-DD).
-          * `"content"`: Isi lengkap berita. Bisa menggunakan tag HTML seperti `<p>` untuk paragraf.
-          * `"image"`: Path ke gambar berita. Unggah gambar baru ke `images/news/` dan sesuaikan nama filenya di sini.
+File: `data/news.json`
 
-### 2\. Mengubah Struktur Organisasi
+**Menambah/Mengedit Berita:**
 
-Data pimpinan dan pejabat diatur dalam file `data/opd.json`.
+* Tambahkan objek berita baru di dalam array `[]`.
+* Format objek:
 
-  * **Untuk mengubah data pejabat:**
-    1.  Buka file `data/opd.json`.
-    2.  Cari pejabat yang ingin diubah datanya berdasarkan `jabatan`.
-    3.  Ubah `"nama"`, `"jabatan"`, atau `"keterangan"`.
-    4.  Untuk mengubah foto, unggah foto baru ke `images/leaders/` dan perbarui path di bagian `"foto"`.
+  ```json
+  {
+    "id": 2,
+    "title": "Judul Berita",
+    "excerpt": "Ringkasan berita...",
+    "date": "2025-07-30",
+    "content": "<p>Isi lengkap berita...</p>",
+    "image": "images/news/namafile.jpg"
+  }
+  ```
 
-### 3\. Mengubah Data di Halaman Detail Bidang
+📝 Pastikan:
 
-Setiap halaman detail bidang (Koperasi, UKM, Tenaga Kerja) memiliki file datanya sendiri.
+* Gambar berada di folder `images/news/`.
+* Gunakan tag HTML dasar (misal `<p>`, `<br>`) di `content`.
 
-  * **Bidang Koperasi:** Ubah statistik dan daftar layanan di `data/cooperative-data.json`.
-  * **Bidang UKM:** Ubah statistik dan daftar layanan di `data/smes-data.json`.
-  * **Bidang Tenaga Kerja:** Ubah statistik dan daftar layanan di `data/labor-data.json`.
+---
 
-Cukup buka file JSON yang sesuai dan ubah teks atau angka di dalamnya.
+### 🧑‍💼 2. Struktur Organisasi
 
-### 4\. Mengubah Daftar Layanan (di Halaman `services.html`)
+File: `data/opd.json`
 
-Halaman ini menggunakan dua file:
+**Untuk Mengubah Data Pejabat:**
 
-1.  **`data/service-list.json`**: Mengatur kartu-kartu layanan yang tampil di halaman.
-2.  **`data/services.json`**: Mengatur konten detail yang muncul saat kartu di-klik (modal/pop-up).
+* Temukan elemen berdasarkan `"jabatan"`.
+* Ubah `"nama"`, `"jabatan"`, `"keterangan"`, dan `"foto"` sesuai kebutuhan.
+* Unggah foto baru ke `images/leaders/`.
 
-<!-- end list -->
+---
 
-  * **Untuk mengubah teks di kartu:** Buka `service-list.json`.
-  * **Untuk mengubah detail persyaratan/prosedur:** Buka `services.json`.
+### 📊 3. Data Bidang Koperasi, UKM, dan Tenaga Kerja
 
------
+| Bidang       | File JSON                    |
+| ------------ | ---------------------------- |
+| Koperasi     | `data/cooperative-data.json` |
+| UKM          | `data/smes-data.json`        |
+| Tenaga Kerja | `data/labor-data.json`       |
 
-## Teknologi yang Digunakan
+Edit langsung teks, angka statistik, dan layanan di file tersebut sesuai hasil wawancara atau observasi lapangan.
 
-  * HTML5
-  * CSS3
-  * JavaScript (ES6)
-  * [Font Awesome](https://fontawesome.com/) untuk ikon
-  * [Google Fonts](https://fonts.google.com/) (Poppins) untuk tipografi
+---
+
+### 🛠️ 4. Layanan Publik (di `services.html`)
+
+* `data/service-list.json`: Menentukan kartu layanan (judul dan ikon).
+* `data/services.json`: Menentukan konten detail saat kartu di-klik.
+
+**Contoh perubahan:**
+
+* Ingin ubah nama layanan? Edit `service-list.json`.
+* Ingin ubah persyaratan atau prosedur? Edit `services.json`.
+
+---
+
+## 🧪 Teknologi yang Digunakan
+
+Website ini dibuat dengan teknologi web murni (vanilla):
+
+* ✅ **HTML5** — struktur halaman
+* 🎨 **CSS3** — tata letak & tampilan
+* ⚙️ **JavaScript (ES6)** — pengelolaan data dan interaktivitas
+* 🎯 **Font Awesome** — ikon ilustratif
+* ✍️ **Google Fonts (Poppins)** — tipografi modern
+
+---
+
+## 📂 Struktur Folder
+
+```
+📁 root/
+├── 📁 assets/
+│   └── 📁 css/
+│       └── style.css
+├── 📁 data/
+│   └── *.json  ← Semua konten dinamis
+├── 📁 images/
+│   └── news/, leaders/, etc.
+├── index.html
+├── services.html
+└── ... file HTML lainnya
+```
+
+---
+
+## 🤝 Kontribusi
+
+Website ini dirancang dan dikembangkan sebagai bagian dari Program Kerja **KKN Tematik Mahasiswa ITEB Bina Adinata Bulukumba ** Angkatan IX tahun 2025. Jika Anda ingin mengembangkan lebih lanjut, silakan fork dan sesuaikan dengan kebutuhan instansi Anda.
+
+---
+
+## 🧾 Lisensi
+
+Proyek ini menggunakan lisensi bebas terbuka untuk keperluan edukatif dan non-komersial. Gunakan dan modifikasi sesuai kebutuhan dengan tetap mencantumkan atribusi.
+
+
