@@ -116,7 +116,20 @@ Website ini dibuat dengan teknologi web murni (vanilla):
 
 ## 🤝 Kontribusi
 
-Website ini dirancang dan dikembangkan sebagai bagian dari Program Kerja **KKN Tematik Mahasiswa ITEB Bina Adinata Bulukumba ** Angkatan IX tahun 2025. Jika Anda ingin mengembangkan lebih lanjut, silakan fork dan sesuaikan dengan kebutuhan instansi Anda.
+Website ini dirancang dan dikembangkan sebagai bagian dari Program Kerja **KKN Tematik Mahasiswa ITEB Bina Adinata Bulukumba** Angkatan IX tahun 2025. Jika Anda ingin mengembangkan lebih lanjut, silakan fork dan sesuaikan dengan kebutuhan instansi Anda.
+
+---
+
+### 👨‍💻 Tim Pengembang
+
+| Nama Lengkap             | Peran                                               |
+| ------------------------ | --------------------------------------------------- |
+| **Akhmad Adz Zikra**     | Programmer Utama, Desain UI/UX, Integrasi Data JSON |
+| \[Nama Kontributor 1]    | Pengumpulan Data Koperasi dan UKM                   |
+| \[Nama Kontributor 2]    | Pengumpulan Data Tenaga Kerja                       |
+| \[Nama Kontributor 3]    | Dokumentasi & Penulisan Konten                      |
+| \[Nama Kontributor 4]    | Observasi Lapangan & Wawancara Kepala Dinas         |
+| \[Nama Dosen Pembimbing] | Dosen Pembimbing Lapangan                           |
 
 ---
 
