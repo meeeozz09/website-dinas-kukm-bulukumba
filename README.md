@@ -133,5 +133,6 @@ Proyek website ini merupakan hasil kerja sama tim mahasiswa ITEB Bina Adinata da
 ## 🧾 Lisensi
 
 Proyek ini menggunakan lisensi bebas terbuka untuk keperluan edukatif dan non-komersial. Gunakan dan modifikasi sesuai kebutuhan dengan tetap mencantumkan atribusi.
+tes
 
 
