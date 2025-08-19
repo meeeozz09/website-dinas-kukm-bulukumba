@@ -678,5 +678,34 @@ footer {
   color: #ff7d00;
 }
 
+/* Active State untuk Semua Device */
+.nav-menu a.active {
+  color: #ff7d00 !important;
+  font-weight: 600;
+}
+
+.nav-menu a.active i {
+  color: #ff7d00 !important;
+}
+
+/* Mobile Specific Styles */
+@media (max-width: 768px) {
+  .nav-menu a.active {
+    position: relative;
+    padding-left: 15px;
+  }
+  
+  .nav-menu a.active::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 8px;
+    height: 8px;
+    background: #ff7d00;
+    border-radius: 50%;
+  }
+}
 }
 

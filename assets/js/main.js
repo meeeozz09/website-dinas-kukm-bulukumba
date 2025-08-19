@@ -1,14 +1,11 @@
 document.addEventListener('DOMContentLoaded', function() {
+  const currentPath = window.location.pathname.split('/').pop() || 'index.html';
   
-  const currentPage = location.pathname.split('/').pop() || 'index.html';
-  const navLinks = document.querySelectorAll('.nav-menu a');
-  
-  navLinks.forEach(link => {
-    const linkHref = link.getAttribute('href');
-    if (currentPage === linkHref) {
-      link.classList.add('active');
-    } else {
-      link.classList.remove('active');
-    }
+  document.querySelectorAll('.nav-menu a').forEach(link => {
+    const linkPath = link.getAttribute('href').split('/').pop();
+    link.classList.toggle('active', linkPath === currentPath);
+    
+    // Debugging
+    console.log(`Link: ${linkPath}, Current: ${currentPath}, Active: ${linkPath === currentPath}`);
   });
 });
