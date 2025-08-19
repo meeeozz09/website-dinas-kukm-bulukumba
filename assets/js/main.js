@@ -5,7 +5,6 @@ document.addEventListener('DOMContentLoaded', function() {
     const linkPath = link.getAttribute('href').split('/').pop();
     link.classList.toggle('active', linkPath === currentPath);
     
-    // Debugging
     console.log(`Link: ${linkPath}, Current: ${currentPath}, Active: ${linkPath === currentPath}`);
   });
 });
