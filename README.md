@@ -116,23 +116,26 @@ Website ini dibuat dengan teknologi web murni (vanilla):
 
 ## 🤝 Kontribusi
 
-Website ini dirancang dan dikembangkan sebagai bagian dari Program Kerja **KKN Tematik Mahasiswa ITEB Bina Adinata Bulukumba** Angkatan IX tahun 2025. Jika Anda ingin mengembangkan lebih lanjut, silakan fork dan sesuaikan dengan kebutuhan instansi Anda.
-
+Website ini dirancang dan dikembangkan sebagai bagian dari Program Kerja **KKN Tematik Mahasiswa ITEB Bina Adinata Bulukumba** Angkatan IX tahun 2025.
 ---
 
 ### 👨‍💻 Tim Pengembang
 
-Proyek website ini merupakan hasil kerja sama tim mahasiswa ITEB Bina Adinata dalam kegiatan **KKN Tematik Tahun 2025** yang dilaksanakan di **Dinas Koperasi, Usaha Kecil, Menengah dan Tenaga Kerja Kabupaten Bulukumba**. Setiap anggota memiliki peran masing-masing dalam mendukung keberhasilan proyek ini, antara lain:
+- Akhmad Adz Zikra
+- Andi Anwar
+- Nurlinda
+- Wilda Magfirah
+- Nurfahmita
+- Andi Farsha Manangngi
+- Haekal Ramadhani
+- Ikram Nur
+- Aditya Juwansyah
+- Noerhidayat Jayadhi
 
-* **Akhmad Adz Zikra** bertanggung jawab dalam **pengembangan teknis website**, mencakup desain tampilan, penulisan kode HTML, CSS, dan JavaScript, serta pengelolaan data dinamis menggunakan file JSON.
-* Anggota tim lainnya, yaitu **Andi Anwar**, **\[Nama Anggota 2]**, **\[Nama Anggota 3]**, **\[Nama Anggota 4]**, **\[Nama Anggota 5]**, **\[Nama Anggota 6]**, **\[Nama Anggota 7]**, dan **\[Nama Anggota 8]**, turut berkontribusi dalam **pengumpulan data**, seperti dokumentasi foto, informasi struktur organisasi, data layanan dari masing-masing bidang (Koperasi, UKM, dan Tenaga Kerja), serta hasil wawancara dengan pihak dinas terkait.
-* **\[Nama Dosen Pembimbing]** selaku **dosen pembimbing lapangan**, memberikan arahan, masukan, dan bimbingan selama proses pelaksanaan KKN berlangsung.
-
----
+**Dosen Pembimbing:** Adi Candra S.Kom,M.Kom
 
 ## 🧾 Lisensi
 
-Proyek ini menggunakan lisensi bebas terbuka untuk keperluan edukatif dan non-komersial. Gunakan dan modifikasi sesuai kebutuhan dengan tetap mencantumkan atribusi.
-tes
+Seluruh kode, data, dan konten dalam proyek ini merupakan hak milik Dinas Koperasi, UKM, dan Tenaga Kerja Kabupaten Bulukumba. Penggunaan, distribusi, atau modifikasi hanya diperbolehkan atas izin resmi dari kantor terkait.
 
 
